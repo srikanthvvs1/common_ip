@@ -9,7 +9,7 @@
 
 module sync_fifo_1w1r #(
     parameter DATA_WIDTH = 32,
-    parameter NDEPTH = 8, //2*n aligned depth
+    parameter NDEPTH = 8, //rounding to 2*n aligned depth
     parameter DEPTH = 8  //any length <= NDEPTH
 )
 (
